@@ -33,11 +33,12 @@ This project serves as a practical guide to mastering **LangGraph**, a library f
     * Binding tools to an LLM.
     * Implementing a basic `router` to switch between generating text and calling tools.
     * Adding conversation memory using checkpoints.
-  ```mermaid
-graph LR
-    __start__([Start]) --> chatbot
-    chatbot --> __end__([End])
-    style chatbot fill:#f9f,stroke:#333,stroke-width:2px
+   ```mermaid
+   graph LR
+       __start__([Start]) --> chatbot
+       chatbot --> __end__([End])
+       style chatbot fill:#f9f,stroke:#333,stroke-width:2px
+
 
 ### 2. [Human_in_the_loop.ipynb](Human_in_the_loop.ipynb)
 **Interactive Workflows**
